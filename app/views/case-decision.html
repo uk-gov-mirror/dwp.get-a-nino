@@ -30,7 +30,7 @@
           autocomplete: "tel",
           classes: "govuk-!-width-one-third",
           label: {
-            text: "National Insurance number"
+            text: "What is the National Insurance number?"
           }
         }) }}
       {% endset %}
@@ -53,12 +53,12 @@
           },
           {
             value: "allocated",
-            text: "Allocated",
+            text: "Allocate",
             conditional: { html: emailHtml }
           },
           {
             value: "rejected",
-            text: "Rejected",
+            text: "Reject",
             conditional: { html: textHtml }
           }
         ]
